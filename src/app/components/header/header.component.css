@@ -1,0 +1,59 @@
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5px;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.button-container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+}
+
+.button {
+  background-color: yellowgreen;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  transition-duration: 0.4s;
+  border: none;
+}
+
+.button:hover {
+  background-color: gray;
+  color: black;
+  cursor: pointer;
+}
+
+.image,
+.image1 {
+  height: 10%;
+  width: 10%;
+  margin: 1px;
+  cursor: pointer;
+}
