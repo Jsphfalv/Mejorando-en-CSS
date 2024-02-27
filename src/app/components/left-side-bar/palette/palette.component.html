@@ -1,0 +1,17 @@
+<div class="palette-bar">
+  <button
+    *ngFor="let color of color"
+    class="color"
+    (click)="colorSelected($event)"
+    [style.background-color]="color"
+    id="{{ color }}"
+  ></button>
+</div>
+
+<!-- <div [style.background-color]="colorSelected"></div> -->
+<!-- <div class="palette">
+  <button *ngFor="let color of colors"
+          (click)="selectColor(color)"
+          [style.background-color]="color">
+  </button>
+</div> -->

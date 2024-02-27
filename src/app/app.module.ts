@@ -11,6 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutMePageComponent } from './components/pages/about-me-page/about-me-page.component';
 import { InfoPageComponent } from './components/pages/info-page/info-page.component';
 import { LoginPageComponent } from './components/pages/login-page/login-page.component';
+import { PaletteComponent } from './components/left-side-bar/palette/palette.component';
+import { word2ColorPipe } from './components/pipes/word2color.pipe';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { LoginPageComponent } from './components/pages/login-page/login-page.com
     AboutMePageComponent,
     InfoPageComponent,
     LoginPageComponent,
+    PaletteComponent,
+    word2ColorPipe,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
