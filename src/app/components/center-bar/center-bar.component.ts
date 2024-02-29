@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'center-bar',
@@ -6,11 +6,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./center-bar.component.css'],
 })
 export class CenterBarComponent {
-  color: string = '';
+  @Input()
+  color = '';
 
-  colorRecibido(color: Event) {
+  colorRecibido(color: string) {
+    this.colorRecibido(color);
     console.log('Hacia el center');
     console.log(color);
-    this.colorRecibido(color);
   }
 }

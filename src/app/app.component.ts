@@ -11,8 +11,8 @@ export class AppComponent {
 
   colorSelected = '';
 
-  constructor(private colorService: ColorService) {
-    this.colorSelected = this.colorService.selectedColor;
-    console.log();
-  }
+  // constructor(private colorService: ColorService) {
+  //   this.colorSelected = this.colorService.selectedColor;
+  //   console.log();
+  // }
 }

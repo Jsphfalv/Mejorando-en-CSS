@@ -1,8 +1,7 @@
 <div class="center-bar">
-  <div class="canvas-wrapper">
-    <p
-      (colorSelected)="colorRecibido($event)"
-      [style.background-color]="color"
-    ></p>
-  </div>
+  <div
+    class="canvas-wrapper"
+    (colorEmitterFromPalette)="colorRecibido(color)"
+    [style.background-color]="color"
+  ></div>
 </div>

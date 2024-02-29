@@ -6,11 +6,13 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./left-side-bar.component.css'],
 })
 export class LeftSideBarComponent {
+  color = '';
+
   @Output()
-  colorEmitterFromPalette = new EventEmitter();
+  colorEmitterFromPalette = new EventEmitter<string>();
 
   colorFromPalette(color: string) {
     this.colorEmitterFromPalette.emit(color);
-    console.log('from left side bar', color);
+    console.log('from left side bar,', color);
   }
 }

@@ -1,5 +1,4 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { ColorService } from 'src/app/services/color-service';
 
 @Component({
   selector: 'app-palette',
@@ -16,11 +15,11 @@ export class PaletteComponent {
 
   colorSelected(event: Event) {
     const colorSelected = (event.target as HTMLElement).id;
-    // this.colorService.selectedColor = colorSelected;
     this.sendColor.emit(colorSelected);
-    console.log('Desde Palette');
-    console.log(colorSelected);
+    // console.log('Desde Palette');
+    // console.log(colorSelected);
   }
 }
 
+// this.colorService.selectedColor = colorSelected;
 // const colorSelected = (event.target as HTMLElement).id;
