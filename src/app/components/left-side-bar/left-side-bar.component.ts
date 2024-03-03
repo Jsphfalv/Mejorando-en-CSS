@@ -8,6 +8,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
 export class LeftSideBarComponent {
   color = '';
 
+  foo = '';
+
   @Output()
   colorEmitterFromPalette = new EventEmitter<string>();
 
