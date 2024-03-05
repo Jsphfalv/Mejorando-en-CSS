@@ -10,11 +10,11 @@ export class LeftSideBarComponent {
 
   foo = '';
 
-  @Output()
-  colorEmitterFromPalette = new EventEmitter<string>();
+  // @Output()
+  // colorEmitterFromPalette = new EventEmitter<string>();
 
-  colorFromPalette(color: string) {
-    this.colorEmitterFromPalette.emit(color);
-    console.log('from left side bar,', color);
-  }
+  // colorFromPalette(color: string) {
+  //   this.colorEmitterFromPalette.emit(color);
+  //   console.log('from left side bar,', color);
+  // }
 }

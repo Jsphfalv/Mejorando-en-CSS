@@ -13,6 +13,8 @@ import { InfoPageComponent } from './components/pages/info-page/info-page.compon
 import { LoginPageComponent } from './components/pages/login-page/login-page.component';
 import { PaletteComponent } from './components/left-side-bar/palette/palette.component';
 import { word2ColorPipe } from './components/pipes/word2color.pipe';
+import { ColorSelectPageComponent } from './components/pages/color-select-page/color-select-page.component';
+import { PixelArtComponent } from './components/pages/pixel-art/pixel-art.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { word2ColorPipe } from './components/pipes/word2color.pipe';
     LoginPageComponent,
     PaletteComponent,
     word2ColorPipe,
+    ColorSelectPageComponent,
+    PixelArtComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

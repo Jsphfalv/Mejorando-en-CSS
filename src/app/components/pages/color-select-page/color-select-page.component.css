@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  /* border: 2px solid blue; */
+}
+
+.left {
+  width: 20%;
+}
+
+.center {
+  width: 80%;
+}

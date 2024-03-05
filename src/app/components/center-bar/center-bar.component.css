@@ -13,7 +13,7 @@
 .canvas-wrapper {
   width: 90%;
   height: 90%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 
 .red {
