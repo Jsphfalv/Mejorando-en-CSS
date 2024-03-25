@@ -15,6 +15,9 @@ import { PaletteComponent } from './components/left-side-bar/palette/palette.com
 import { word2ColorPipe } from './components/pipes/word2color.pipe';
 import { ColorSelectPageComponent } from './components/pages/color-select-page/color-select-page.component';
 import { PixelArtComponent } from './components/pages/pixel-art/pixel-art.component';
+import { CanvasArtComponent } from './components/canvas-art/canvas-art.component';
+import { GridSizeComponent } from './components/grid-size/grid-size.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -30,8 +33,10 @@ import { PixelArtComponent } from './components/pages/pixel-art/pixel-art.compon
     word2ColorPipe,
     ColorSelectPageComponent,
     PixelArtComponent,
+    CanvasArtComponent,
+    GridSizeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

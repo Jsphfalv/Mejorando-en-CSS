@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 10%;
+  width: 5%;
+  border: 2px solid black;
+  border-radius: 10px;
+}

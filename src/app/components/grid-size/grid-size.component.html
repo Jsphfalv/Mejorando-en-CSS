@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <div>
+    Grid size
+    <input
+      class="form-control"
+      type="text"
+      (keyup.enter)="emitValue(txtInput.value)"
+      #txtInput
+    />
+  </div>
+  <div class="wrapper1">
+    <input [style.background-color]="color" />
+  </div>
+</div>

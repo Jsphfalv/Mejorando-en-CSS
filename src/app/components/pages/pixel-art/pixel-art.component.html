@@ -1,1 +1,17 @@
-<p>pixel-art works!</p>
+<div class="container">
+  <div class="palette-bar">
+    <button
+      *ngFor="let color of color"
+      class="color"
+      (click)="colorSelected($event)"
+      [style.background-color]="color"
+      id="{{ color }}"
+    ></button>
+  </div>
+  <div>
+    <grid-size></grid-size>
+  </div>
+  <div class="rejilla">
+    <canvas-art class="canvas"></canvas-art>
+  </div>
+</div>
